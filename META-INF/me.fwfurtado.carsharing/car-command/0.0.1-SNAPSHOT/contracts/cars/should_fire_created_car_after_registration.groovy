@@ -10,6 +10,10 @@ Contract.make {
     outputMessage {
         sentTo('cars')
 
+        headers {
+            header("contentType", applicationJson())
+        }
+
         body(
                 id: 'ddbb7efa-7276-4112-8fb1-d9b1d07ab66b',
                 model: 'Camaro',
