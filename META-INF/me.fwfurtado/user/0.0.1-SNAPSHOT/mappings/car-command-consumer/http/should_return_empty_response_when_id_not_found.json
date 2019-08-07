@@ -1,0 +1,17 @@
+{
+  "id" : "f38a525a-24f1-4285-b9a2-333d8d122d99",
+  "request" : {
+    "urlPath" : "/users/13330ed4-e197-4ee7-bda4-da12067f58fd",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "matches" : "application/json.*"
+      }
+    }
+  },
+  "response" : {
+    "status" : 404,
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "f38a525a-24f1-4285-b9a2-333d8d122d99"
+}
