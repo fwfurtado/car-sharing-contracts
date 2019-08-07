@@ -1,0 +1,21 @@
+{
+  "id" : "447778b7-6856-4ed3-8c0d-f631870a3b65",
+  "request" : {
+    "urlPath" : "/users/13e09757-95b4-4d7c-88cd-5678796bbdfd",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "matches" : "application/json.*"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Fernando\",\"bio\":\"Some bio here!\",\"id\":\"{{{request.path.[1]}}}\",\"email\":\"fernando@email.com\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "447778b7-6856-4ed3-8c0d-f631870a3b65"
+}
